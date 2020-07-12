@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "pKUD68x7wcw1wmzlucY1+PRNg7kSm1WpClpJulw724xTTZ81BEL7nqeSViaNJim9wJEEE2/RSd4T88EHhr24kA==",
+  "success": true,
+  "projectFilePath": "/home/bonifacio/Projects/NetCore/RebStore/Domain/Domain.csproj",
+  "expectedPackageFiles": [
+    "/home/bonifacio/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/bonifacio/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
