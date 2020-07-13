@@ -10,6 +10,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Persistence;
+using Microsoft.EntityFrameworkCore;
 
 namespace WebAPI
 {
@@ -25,6 +27,9 @@ namespace WebAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<RebStoreContext>(optionsAction=>{
+                optionsAction.UseMySQL(Configuration.GetConnectionString("DefaultConnection"));
+            });
             services.AddControllers();
         }
 

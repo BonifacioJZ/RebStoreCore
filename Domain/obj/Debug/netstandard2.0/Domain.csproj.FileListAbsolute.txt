@@ -1,0 +1,9 @@
+/home/bonifacio/Projects/NetCore/RebStore/Domain/bin/Debug/netstandard2.0/Domain.deps.json
+/home/bonifacio/Projects/NetCore/RebStore/Domain/bin/Debug/netstandard2.0/Domain.dll
+/home/bonifacio/Projects/NetCore/RebStore/Domain/bin/Debug/netstandard2.0/Domain.pdb
+/home/bonifacio/Projects/NetCore/RebStore/Domain/obj/Debug/netstandard2.0/Domain.csprojAssemblyReference.cache
+/home/bonifacio/Projects/NetCore/RebStore/Domain/obj/Debug/netstandard2.0/Domain.AssemblyInfoInputs.cache
+/home/bonifacio/Projects/NetCore/RebStore/Domain/obj/Debug/netstandard2.0/Domain.AssemblyInfo.cs
+/home/bonifacio/Projects/NetCore/RebStore/Domain/obj/Debug/netstandard2.0/Domain.csproj.CoreCompileInputs.cache
+/home/bonifacio/Projects/NetCore/RebStore/Domain/obj/Debug/netstandard2.0/Domain.dll
+/home/bonifacio/Projects/NetCore/RebStore/Domain/obj/Debug/netstandard2.0/Domain.pdb

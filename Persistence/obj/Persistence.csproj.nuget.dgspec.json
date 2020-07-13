@@ -4,14 +4,14 @@
     "/home/bonifacio/Projects/NetCore/RebStore/Persistence/Persistence.csproj": {}
   },
   "projects": {
-    "/home/bonifacio/Projects/NetCore/RebStore/Persistence/Persistence.csproj": {
+    "/home/bonifacio/Projects/NetCore/RebStore/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/bonifacio/Projects/NetCore/RebStore/Persistence/Persistence.csproj",
-        "projectName": "Persistence",
-        "projectPath": "/home/bonifacio/Projects/NetCore/RebStore/Persistence/Persistence.csproj",
+        "projectUniqueName": "/home/bonifacio/Projects/NetCore/RebStore/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/home/bonifacio/Projects/NetCore/RebStore/Domain/Domain.csproj",
         "packagesPath": "/home/bonifacio/.nuget/packages/",
-        "outputPath": "/home/bonifacio/Projects/NetCore/RebStore/Persistence/obj/",
+        "outputPath": "/home/bonifacio/Projects/NetCore/RebStore/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/bonifacio/.nuget/NuGet/NuGet.Config"
@@ -36,6 +36,75 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/bonifacio/Projects/NetCore/RebStore/Persistence/Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/bonifacio/Projects/NetCore/RebStore/Persistence/Persistence.csproj",
+        "projectName": "Persistence",
+        "projectPath": "/home/bonifacio/Projects/NetCore/RebStore/Persistence/Persistence.csproj",
+        "packagesPath": "/home/bonifacio/.nuget/packages/",
+        "outputPath": "/home/bonifacio/Projects/NetCore/RebStore/Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/bonifacio/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/home/bonifacio/Projects/NetCore/RebStore/Domain/Domain.csproj": {
+                "projectPath": "/home/bonifacio/Projects/NetCore/RebStore/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.20, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

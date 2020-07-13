@@ -1,0 +1,14 @@
+/home/bonifacio/Projects/NetCore/RebStore/App/bin/Debug/netstandard2.0/App.deps.json
+/home/bonifacio/Projects/NetCore/RebStore/App/bin/Debug/netstandard2.0/App.dll
+/home/bonifacio/Projects/NetCore/RebStore/App/bin/Debug/netstandard2.0/App.pdb
+/home/bonifacio/Projects/NetCore/RebStore/App/bin/Debug/netstandard2.0/Domain.dll
+/home/bonifacio/Projects/NetCore/RebStore/App/bin/Debug/netstandard2.0/Persistence.dll
+/home/bonifacio/Projects/NetCore/RebStore/App/bin/Debug/netstandard2.0/Domain.pdb
+/home/bonifacio/Projects/NetCore/RebStore/App/bin/Debug/netstandard2.0/Persistence.pdb
+/home/bonifacio/Projects/NetCore/RebStore/App/obj/Debug/netstandard2.0/App.csprojAssemblyReference.cache
+/home/bonifacio/Projects/NetCore/RebStore/App/obj/Debug/netstandard2.0/App.AssemblyInfoInputs.cache
+/home/bonifacio/Projects/NetCore/RebStore/App/obj/Debug/netstandard2.0/App.AssemblyInfo.cs
+/home/bonifacio/Projects/NetCore/RebStore/App/obj/Debug/netstandard2.0/App.csproj.CoreCompileInputs.cache
+/home/bonifacio/Projects/NetCore/RebStore/App/obj/Debug/netstandard2.0/App.csproj.CopyComplete
+/home/bonifacio/Projects/NetCore/RebStore/App/obj/Debug/netstandard2.0/App.dll
+/home/bonifacio/Projects/NetCore/RebStore/App/obj/Debug/netstandard2.0/App.pdb

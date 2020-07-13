@@ -1,0 +1,12 @@
+/home/bonifacio/Projects/NetCore/RebStore/Persistence/bin/Debug/netstandard2.0/Persistence.deps.json
+/home/bonifacio/Projects/NetCore/RebStore/Persistence/bin/Debug/netstandard2.0/Persistence.dll
+/home/bonifacio/Projects/NetCore/RebStore/Persistence/bin/Debug/netstandard2.0/Persistence.pdb
+/home/bonifacio/Projects/NetCore/RebStore/Persistence/bin/Debug/netstandard2.0/Domain.dll
+/home/bonifacio/Projects/NetCore/RebStore/Persistence/bin/Debug/netstandard2.0/Domain.pdb
+/home/bonifacio/Projects/NetCore/RebStore/Persistence/obj/Debug/netstandard2.0/Persistence.csprojAssemblyReference.cache
+/home/bonifacio/Projects/NetCore/RebStore/Persistence/obj/Debug/netstandard2.0/Persistence.AssemblyInfoInputs.cache
+/home/bonifacio/Projects/NetCore/RebStore/Persistence/obj/Debug/netstandard2.0/Persistence.AssemblyInfo.cs
+/home/bonifacio/Projects/NetCore/RebStore/Persistence/obj/Debug/netstandard2.0/Persistence.csproj.CoreCompileInputs.cache
+/home/bonifacio/Projects/NetCore/RebStore/Persistence/obj/Debug/netstandard2.0/Persistence.csproj.CopyComplete
+/home/bonifacio/Projects/NetCore/RebStore/Persistence/obj/Debug/netstandard2.0/Persistence.dll
+/home/bonifacio/Projects/NetCore/RebStore/Persistence/obj/Debug/netstandard2.0/Persistence.pdb
