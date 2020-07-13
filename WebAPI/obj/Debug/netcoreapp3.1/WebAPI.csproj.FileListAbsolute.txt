@@ -60,3 +60,5 @@
 /home/bonifacio/Projects/NetCore/RebStore/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.dll
 /home/bonifacio/Projects/NetCore/RebStore/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.pdb
 /home/bonifacio/Projects/NetCore/RebStore/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.genruntimeconfig.cache
+/home/bonifacio/Projects/NetCore/RebStore/WebAPI/bin/Debug/netcoreapp3.1/MediatR.dll
+/home/bonifacio/Projects/NetCore/RebStore/WebAPI/bin/Debug/netcoreapp3.1/MediatR.Extensions.Microsoft.DependencyInjection.dll

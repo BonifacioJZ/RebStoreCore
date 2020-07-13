@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nuX1acfL8CD1FOrxaJ96OeAIdqntW2hb/O05cLFqNjGkWR91gyk9DnF8lHkvaeLMpJrf/jJksca3xPLbG2g5wg==",
+  "dgSpecHash": "lyIutsh9x3LFv+BH0C+K89hS7YiidCXKo2xzgAUDjodgrQNEe8oBs2Eo8Clx7ZWC+b6zrgfJB0pgvukwWxf41w==",
   "success": true,
   "projectFilePath": "/home/bonifacio/Projects/NetCore/RebStore/App/App.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,8 @@
     "/home/bonifacio/.nuget/packages/k4os.compression.lz4/1.1.11/k4os.compression.lz4.1.1.11.nupkg.sha512",
     "/home/bonifacio/.nuget/packages/k4os.compression.lz4.streams/1.1.11/k4os.compression.lz4.streams.1.1.11.nupkg.sha512",
     "/home/bonifacio/.nuget/packages/k4os.hash.xxhash/1.0.6/k4os.hash.xxhash.1.0.6.nupkg.sha512",
+    "/home/bonifacio/.nuget/packages/mediatr/8.0.0/mediatr.8.0.0.nupkg.sha512",
+    "/home/bonifacio/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/8.0.1/mediatr.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
     "/home/bonifacio/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/home/bonifacio/.nuget/packages/microsoft.bcl.hashcode/1.1.0/microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "/home/bonifacio/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",

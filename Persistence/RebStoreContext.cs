@@ -10,7 +10,7 @@ namespace Persistence
         }
         protected override void OnModelCreating(ModelBuilder builder)
         {
-            builder.Entity<ClientNumber>().HasKey(ci => new { ci.client_id, ci.number_id });
+            builder.Entity<ClientNumber>().HasKey(ci => new { ci.ClientId, ci.NumberId });
 
         }
 
