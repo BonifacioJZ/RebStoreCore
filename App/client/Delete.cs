@@ -1,6 +1,8 @@
+using System.Net;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
+using App.MidlewareError;
 using MediatR;
 using Persistence;
 
@@ -21,7 +23,8 @@ namespace App.client
             {
                 var client = await _rebStoreContext.Client.FindAsync(request.ClientId);
                 if(client == null)
-                    throw new Exception("No se encutra el curso");
+                    //throw new Exception("No se encutra el curso");
+                    throw new HandlerError(HttpStatusCode.NotFound, new {client = "No se Encontro el cliente"});
                 _rebStoreContext.Remove(client);
                 var valor = await _rebStoreContext.SaveChangesAsync();
                 if(valor>0)

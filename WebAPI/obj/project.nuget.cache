@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Dwzcc3cuB69QxYgHz6al/+oSvmzKgDasaq0k2fgm1t2sJ0ey2/LndURCCM8gNOjeJne4YrNHcelMfF72cdzDIw==",
+  "dgSpecHash": "Pd9BC0h0UrEUbkQ6QHxY8FUTmXQsxsW6CBPvfihE+j7xwxoNw1oVuyXSsJNlf46ebTDbJdljmMbFFsWYRBoTkw==",
   "success": true,
   "projectFilePath": "/home/bonifacio/Projects/NetCore/RebStore/WebAPI/WebAPI.csproj",
   "expectedPackageFiles": [
     "/home/bonifacio/.nuget/packages/bouncycastle.netcore/1.8.3/bouncycastle.netcore.1.8.3.nupkg.sha512",
+    "/home/bonifacio/.nuget/packages/fluentvalidation/8.6.2/fluentvalidation.8.6.2.nupkg.sha512",
+    "/home/bonifacio/.nuget/packages/fluentvalidation.aspnetcore/8.6.2/fluentvalidation.aspnetcore.8.6.2.nupkg.sha512",
+    "/home/bonifacio/.nuget/packages/fluentvalidation.dependencyinjectionextensions/8.6.2/fluentvalidation.dependencyinjectionextensions.8.6.2.nupkg.sha512",
     "/home/bonifacio/.nuget/packages/google.protobuf/3.6.1/google.protobuf.3.6.1.nupkg.sha512",
     "/home/bonifacio/.nuget/packages/k4os.compression.lz4/1.1.11/k4os.compression.lz4.1.1.11.nupkg.sha512",
     "/home/bonifacio/.nuget/packages/k4os.compression.lz4.streams/1.1.11/k4os.compression.lz4.streams.1.1.11.nupkg.sha512",
@@ -36,6 +39,7 @@
     "/home/bonifacio/.nuget/packages/microsoft.win32.systemevents/4.6.0/microsoft.win32.systemevents.4.6.0.nupkg.sha512",
     "/home/bonifacio/.nuget/packages/mysql.data/8.0.20/mysql.data.8.0.20.nupkg.sha512",
     "/home/bonifacio/.nuget/packages/mysql.data.entityframeworkcore/8.0.20/mysql.data.entityframeworkcore.8.0.20.nupkg.sha512",
+    "/home/bonifacio/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
     "/home/bonifacio/.nuget/packages/runtime.native.system/4.0.0/runtime.native.system.4.0.0.nupkg.sha512",
     "/home/bonifacio/.nuget/packages/runtime.native.system.security.cryptography/4.0.0/runtime.native.system.security.cryptography.4.0.0.nupkg.sha512",
     "/home/bonifacio/.nuget/packages/ssh.net/2016.1.0/ssh.net.2016.1.0.nupkg.sha512",

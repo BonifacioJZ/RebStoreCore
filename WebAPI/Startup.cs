@@ -14,6 +14,8 @@ using Persistence;
 using Microsoft.EntityFrameworkCore;
 using MediatR;
 using App.client;
+using FluentValidation.AspNetCore;
+using WebAPI.Middleware;
 
 namespace WebAPI
 {
@@ -33,16 +35,17 @@ namespace WebAPI
             services.AddDbContext<RebStoreContext>(optionsAction=>{
                 optionsAction.UseMySQL(Configuration.GetConnectionString("DefaultConnection"));
             });
-            services.AddControllers();
+            services.AddControllers().AddFluentValidation(cfg => cfg.RegisterValidatorsFromAssemblyContaining<Create>());
             services.AddMediatR(typeof(Consult.handler).Assembly);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseMiddleware<HandleErrorMiddleware>();
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();
+                //app.UseDeveloperExceptionPage();
             }
 
             app.UseHttpsRedirection();

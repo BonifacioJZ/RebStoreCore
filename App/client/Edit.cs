@@ -1,6 +1,7 @@
 using System;
 using System.Threading;
 using System.Threading.Tasks;
+using FluentValidation;
 using MediatR;
 using Persistence;
 
@@ -14,6 +15,15 @@ namespace App.client
             public string name { get; set; }
             public string last_name { get; set; }
             public string lugar { get; set; }
+        }
+
+        public class EjectedValidation : AbstractValidator<Ejected>{
+            public EjectedValidation(){
+                RuleFor(x => x.name).NotEmpty();
+                RuleFor(x => x.last_name).NotEmpty();
+                RuleFor(x => x.lugar).NotEmpty();
+
+            }
         }
 
         public class handler : IRequestHandler<Ejected>

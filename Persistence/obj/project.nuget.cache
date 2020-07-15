@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RuBMX7IgY1TiH1QGugcbBmPxVP5CGuGXGoUWCPr4sADq644nFpokCO62FTVxZQnGxTZXIInecdB3f2+kDBiDag==",
+  "dgSpecHash": "Nb2Mvk5bzPcMRFIjyhB1/Y80tpNR7FWliYxQHTJu/8uMIz1VTgkFdKaYim2PxXsgCbPXGha5v3WgJMMHghhAIg==",
   "success": true,
   "projectFilePath": "/home/bonifacio/Projects/NetCore/RebStore/Persistence/Persistence.csproj",
   "expectedPackageFiles": [

@@ -62,3 +62,8 @@
 /home/bonifacio/Projects/NetCore/RebStore/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.genruntimeconfig.cache
 /home/bonifacio/Projects/NetCore/RebStore/WebAPI/bin/Debug/netcoreapp3.1/MediatR.dll
 /home/bonifacio/Projects/NetCore/RebStore/WebAPI/bin/Debug/netcoreapp3.1/MediatR.Extensions.Microsoft.DependencyInjection.dll
+/home/bonifacio/Projects/NetCore/RebStore/WebAPI/bin/Debug/netcoreapp3.1/FluentValidation.dll
+/home/bonifacio/Projects/NetCore/RebStore/WebAPI/bin/Debug/netcoreapp3.1/FluentValidation.AspNetCore.dll
+/home/bonifacio/Projects/NetCore/RebStore/WebAPI/bin/Debug/netcoreapp3.1/FluentValidation.DependencyInjectionExtensions.dll
+/home/bonifacio/Projects/NetCore/RebStore/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.MvcApplicationPartsAssemblyInfo.cs
+/home/bonifacio/Projects/NetCore/RebStore/WebAPI/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
