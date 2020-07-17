@@ -1,35 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "/home/bonifacio/Projects/NetCore/RebStore/App/App.csproj": {}
+    "/home/bonifacio/Projects/NetCore/RebStoreCore/App/App.csproj": {}
   },
   "projects": {
-    "/home/bonifacio/Projects/NetCore/RebStore/App/App.csproj": {
+    "/home/bonifacio/Projects/NetCore/RebStoreCore/App/App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/bonifacio/Projects/NetCore/RebStore/App/App.csproj",
+        "projectUniqueName": "/home/bonifacio/Projects/NetCore/RebStoreCore/App/App.csproj",
         "projectName": "App",
-        "projectPath": "/home/bonifacio/Projects/NetCore/RebStore/App/App.csproj",
+        "projectPath": "/home/bonifacio/Projects/NetCore/RebStoreCore/App/App.csproj",
         "packagesPath": "/home/bonifacio/.nuget/packages/",
-        "outputPath": "/home/bonifacio/Projects/NetCore/RebStore/App/obj/",
+        "outputPath": "/home/bonifacio/Projects/NetCore/RebStoreCore/App/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/bonifacio/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "netcoreapp3.1": {
             "projectReferences": {
-              "/home/bonifacio/Projects/NetCore/RebStore/Domain/Domain.csproj": {
-                "projectPath": "/home/bonifacio/Projects/NetCore/RebStore/Domain/Domain.csproj"
+              "/home/bonifacio/Projects/NetCore/RebStoreCore/Domain/Domain.csproj": {
+                "projectPath": "/home/bonifacio/Projects/NetCore/RebStoreCore/Domain/Domain.csproj"
               },
-              "/home/bonifacio/Projects/NetCore/RebStore/Persistence/Persistence.csproj": {
-                "projectPath": "/home/bonifacio/Projects/NetCore/RebStore/Persistence/Persistence.csproj"
+              "/home/bonifacio/Projects/NetCore/RebStoreCore/Persistence/Persistence.csproj": {
+                "projectPath": "/home/bonifacio/Projects/NetCore/RebStoreCore/Persistence/Persistence.csproj"
               }
             }
           }
@@ -41,7 +41,7 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
+        "netcoreapp3.1": {
           "dependencies": {
             "FluentValidation.AspNetCore": {
               "target": "Package",
@@ -50,12 +50,6 @@
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[8.0.1, )"
-            },
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
             }
           },
           "imports": [
@@ -68,30 +62,35 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/bonifacio/Projects/NetCore/RebStore/Domain/Domain.csproj": {
+    "/home/bonifacio/Projects/NetCore/RebStoreCore/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/bonifacio/Projects/NetCore/RebStore/Domain/Domain.csproj",
+        "projectUniqueName": "/home/bonifacio/Projects/NetCore/RebStoreCore/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/home/bonifacio/Projects/NetCore/RebStore/Domain/Domain.csproj",
+        "projectPath": "/home/bonifacio/Projects/NetCore/RebStoreCore/Domain/Domain.csproj",
         "packagesPath": "/home/bonifacio/.nuget/packages/",
-        "outputPath": "/home/bonifacio/Projects/NetCore/RebStore/Domain/obj/",
+        "outputPath": "/home/bonifacio/Projects/NetCore/RebStoreCore/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/bonifacio/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
@@ -102,13 +101,11 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
+        "netcoreapp3.1": {
           "dependencies": {
-            "NETStandard.Library": {
-              "suppressParent": "All",
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
+              "version": "[3.1.1, )"
             }
           },
           "imports": [
@@ -121,33 +118,38 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/bonifacio/Projects/NetCore/RebStore/Persistence/Persistence.csproj": {
+    "/home/bonifacio/Projects/NetCore/RebStoreCore/Persistence/Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/bonifacio/Projects/NetCore/RebStore/Persistence/Persistence.csproj",
+        "projectUniqueName": "/home/bonifacio/Projects/NetCore/RebStoreCore/Persistence/Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "/home/bonifacio/Projects/NetCore/RebStore/Persistence/Persistence.csproj",
+        "projectPath": "/home/bonifacio/Projects/NetCore/RebStoreCore/Persistence/Persistence.csproj",
         "packagesPath": "/home/bonifacio/.nuget/packages/",
-        "outputPath": "/home/bonifacio/Projects/NetCore/RebStore/Persistence/obj/",
+        "outputPath": "/home/bonifacio/Projects/NetCore/RebStoreCore/Persistence/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/bonifacio/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "netcoreapp3.1": {
             "projectReferences": {
-              "/home/bonifacio/Projects/NetCore/RebStore/Domain/Domain.csproj": {
-                "projectPath": "/home/bonifacio/Projects/NetCore/RebStore/Domain/Domain.csproj"
+              "/home/bonifacio/Projects/NetCore/RebStoreCore/Domain/Domain.csproj": {
+                "projectPath": "/home/bonifacio/Projects/NetCore/RebStoreCore/Domain/Domain.csproj"
               }
             }
           }
@@ -159,25 +161,23 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
+        "netcoreapp3.1": {
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[3.1.1, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[3.1.1, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.21, )"
             },
             "MySql.Data.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.20, )"
-            },
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
+              "version": "[8.0.21, )"
             }
           },
           "imports": [
@@ -190,6 +190,11 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
         }
       }

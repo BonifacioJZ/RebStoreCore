@@ -1,0 +1,9 @@
+/home/bonifacio/Projects/NetCore/RebStoreCore/Domain/bin/Debug/netcoreapp3.1/Domain.deps.json
+/home/bonifacio/Projects/NetCore/RebStoreCore/Domain/bin/Debug/netcoreapp3.1/Domain.dll
+/home/bonifacio/Projects/NetCore/RebStoreCore/Domain/bin/Debug/netcoreapp3.1/Domain.pdb
+/home/bonifacio/Projects/NetCore/RebStoreCore/Domain/obj/Debug/netcoreapp3.1/Domain.csprojAssemblyReference.cache
+/home/bonifacio/Projects/NetCore/RebStoreCore/Domain/obj/Debug/netcoreapp3.1/Domain.AssemblyInfoInputs.cache
+/home/bonifacio/Projects/NetCore/RebStoreCore/Domain/obj/Debug/netcoreapp3.1/Domain.AssemblyInfo.cs
+/home/bonifacio/Projects/NetCore/RebStoreCore/Domain/obj/Debug/netcoreapp3.1/Domain.csproj.CoreCompileInputs.cache
+/home/bonifacio/Projects/NetCore/RebStoreCore/Domain/obj/Debug/netcoreapp3.1/Domain.dll
+/home/bonifacio/Projects/NetCore/RebStoreCore/Domain/obj/Debug/netcoreapp3.1/Domain.pdb

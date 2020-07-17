@@ -1,11 +1,34 @@
 {
   "version": 2,
-  "dgSpecHash": "SV8wgM7V1dwa8C02sOIQwlIZi3C2f/aqxwKsIrN6nPRHvgnKsqC2MXGKby7YkcajFiAvmdI6tS2A7fguZLayzQ==",
+  "dgSpecHash": "eHT+ATiUf6DajUc7c8YGRUf1OHAVguNmbLt538VTA4DoZkvwFpI7mQG0VBbIcTGAfZsfCBQzT36yqZ/SosncFA==",
   "success": true,
-  "projectFilePath": "/home/bonifacio/Projects/NetCore/RebStore/Domain/Domain.csproj",
+  "projectFilePath": "/home/bonifacio/Projects/NetCore/RebStoreCore/Domain/Domain.csproj",
   "expectedPackageFiles": [
-    "/home/bonifacio/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "/home/bonifacio/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+    "/home/bonifacio/.nuget/packages/microsoft.aspnetcore.cryptography.internal/3.1.1/microsoft.aspnetcore.cryptography.internal.3.1.1.nupkg.sha512",
+    "/home/bonifacio/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/3.1.1/microsoft.aspnetcore.cryptography.keyderivation.3.1.1.nupkg.sha512",
+    "/home/bonifacio/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/3.1.1/microsoft.aspnetcore.identity.entityframeworkcore.3.1.1.nupkg.sha512",
+    "/home/bonifacio/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.0/microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
+    "/home/bonifacio/.nuget/packages/microsoft.bcl.hashcode/1.1.0/microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
+    "/home/bonifacio/.nuget/packages/microsoft.entityframeworkcore/3.1.1/microsoft.entityframeworkcore.3.1.1.nupkg.sha512",
+    "/home/bonifacio/.nuget/packages/microsoft.entityframeworkcore.abstractions/3.1.1/microsoft.entityframeworkcore.abstractions.3.1.1.nupkg.sha512",
+    "/home/bonifacio/.nuget/packages/microsoft.entityframeworkcore.analyzers/3.1.1/microsoft.entityframeworkcore.analyzers.3.1.1.nupkg.sha512",
+    "/home/bonifacio/.nuget/packages/microsoft.entityframeworkcore.relational/3.1.1/microsoft.entityframeworkcore.relational.3.1.1.nupkg.sha512",
+    "/home/bonifacio/.nuget/packages/microsoft.extensions.caching.abstractions/3.1.1/microsoft.extensions.caching.abstractions.3.1.1.nupkg.sha512",
+    "/home/bonifacio/.nuget/packages/microsoft.extensions.caching.memory/3.1.1/microsoft.extensions.caching.memory.3.1.1.nupkg.sha512",
+    "/home/bonifacio/.nuget/packages/microsoft.extensions.configuration/3.1.1/microsoft.extensions.configuration.3.1.1.nupkg.sha512",
+    "/home/bonifacio/.nuget/packages/microsoft.extensions.configuration.abstractions/3.1.1/microsoft.extensions.configuration.abstractions.3.1.1.nupkg.sha512",
+    "/home/bonifacio/.nuget/packages/microsoft.extensions.configuration.binder/3.1.1/microsoft.extensions.configuration.binder.3.1.1.nupkg.sha512",
+    "/home/bonifacio/.nuget/packages/microsoft.extensions.dependencyinjection/3.1.1/microsoft.extensions.dependencyinjection.3.1.1.nupkg.sha512",
+    "/home/bonifacio/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/3.1.1/microsoft.extensions.dependencyinjection.abstractions.3.1.1.nupkg.sha512",
+    "/home/bonifacio/.nuget/packages/microsoft.extensions.identity.core/3.1.1/microsoft.extensions.identity.core.3.1.1.nupkg.sha512",
+    "/home/bonifacio/.nuget/packages/microsoft.extensions.identity.stores/3.1.1/microsoft.extensions.identity.stores.3.1.1.nupkg.sha512",
+    "/home/bonifacio/.nuget/packages/microsoft.extensions.logging/3.1.1/microsoft.extensions.logging.3.1.1.nupkg.sha512",
+    "/home/bonifacio/.nuget/packages/microsoft.extensions.logging.abstractions/3.1.1/microsoft.extensions.logging.abstractions.3.1.1.nupkg.sha512",
+    "/home/bonifacio/.nuget/packages/microsoft.extensions.options/3.1.1/microsoft.extensions.options.3.1.1.nupkg.sha512",
+    "/home/bonifacio/.nuget/packages/microsoft.extensions.primitives/3.1.1/microsoft.extensions.primitives.3.1.1.nupkg.sha512",
+    "/home/bonifacio/.nuget/packages/system.collections.immutable/1.7.0/system.collections.immutable.1.7.0.nupkg.sha512",
+    "/home/bonifacio/.nuget/packages/system.componentmodel.annotations/4.7.0/system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "/home/bonifacio/.nuget/packages/system.diagnostics.diagnosticsource/4.7.0/system.diagnostics.diagnosticsource.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

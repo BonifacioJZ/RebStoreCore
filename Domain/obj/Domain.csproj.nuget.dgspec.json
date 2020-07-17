@@ -1,29 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "/home/bonifacio/Projects/NetCore/RebStore/Domain/Domain.csproj": {}
+    "/home/bonifacio/Projects/NetCore/RebStoreCore/Domain/Domain.csproj": {}
   },
   "projects": {
-    "/home/bonifacio/Projects/NetCore/RebStore/Domain/Domain.csproj": {
+    "/home/bonifacio/Projects/NetCore/RebStoreCore/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/bonifacio/Projects/NetCore/RebStore/Domain/Domain.csproj",
+        "projectUniqueName": "/home/bonifacio/Projects/NetCore/RebStoreCore/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/home/bonifacio/Projects/NetCore/RebStore/Domain/Domain.csproj",
+        "projectPath": "/home/bonifacio/Projects/NetCore/RebStoreCore/Domain/Domain.csproj",
         "packagesPath": "/home/bonifacio/.nuget/packages/",
-        "outputPath": "/home/bonifacio/Projects/NetCore/RebStore/Domain/obj/",
+        "outputPath": "/home/bonifacio/Projects/NetCore/RebStoreCore/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/bonifacio/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
@@ -34,13 +34,11 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
+        "netcoreapp3.1": {
           "dependencies": {
-            "NETStandard.Library": {
-              "suppressParent": "All",
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
+              "version": "[3.1.1, )"
             }
           },
           "imports": [
@@ -53,6 +51,11 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
         }
       }
