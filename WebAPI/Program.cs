@@ -2,7 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Domain.entity;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -22,8 +24,11 @@ namespace WebAPI
 
                 try
                 {
+                    var userManager = service.GetRequiredService<UserManager<User>>();
                     var context = service.GetRequiredService<RebStoreContext>();
                     context.Database.Migrate();
+                    DataPrueba.InsertData(context,userManager).Wait();
+                    
                 }catch(Exception e){
                     var loggin = service.GetRequiredService<ILogger<Program>>();
                     loggin.LogError(e,"Error in  the migration");
