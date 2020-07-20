@@ -9,29 +9,26 @@ namespace WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ClientsController : ControllerBase
+    public class ClientsControlle : MyControllerBase
     {
-        private readonly IMediator _mediator;
-        public ClientsController(IMediator mediator){
-            _mediator = mediator;
-        }
+       
 
         [HttpGet]
         public async Task<ActionResult<List<Client>>> Get(){
            
-            return await _mediator.Send(new Consult.ConsultList());
+            return await Mediator.Send(new Consult.ConsultList());
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<Client>> ClientID(int id){
            
-            return await _mediator.Send(new ConsultId.ClientId { Id = id });
+            return await Mediator.Send(new ConsultId.ClientId { Id = id });
         }
 
        [HttpPost]
        public async Task<ActionResult<Unit>> Create(Create.Ejected data){
            
-           return await _mediator.Send(data);
+           return await Mediator.Send(data);
 
         }
 
@@ -39,12 +36,12 @@ namespace WebAPI.Controllers
         public async Task<ActionResult<Unit>> Edit(int id,Edit.Ejected data){
 
             data.ClientId = id;
-            return await _mediator.Send(data);
+            return await Mediator.Send(data);
         }
 
         [HttpDelete("{id}")]
         public async Task<ActionResult<Unit>> Delete(int id){
-            return await _mediator.Send(new Delete.Ejected { ClientId = id });
+            return await Mediator.Send(new Delete.Ejected { ClientId = id });
         }
     }
 }
