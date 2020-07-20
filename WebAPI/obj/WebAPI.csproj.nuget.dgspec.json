@@ -199,6 +199,66 @@
         }
       }
     },
+    "/home/bonifacio/Projects/NetCore/RebStoreCore/Security/Security.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/bonifacio/Projects/NetCore/RebStoreCore/Security/Security.csproj",
+        "projectName": "Security",
+        "projectPath": "/home/bonifacio/Projects/NetCore/RebStoreCore/Security/Security.csproj",
+        "packagesPath": "/home/bonifacio/.nuget/packages/",
+        "outputPath": "/home/bonifacio/Projects/NetCore/RebStoreCore/Security/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/bonifacio/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/bonifacio/Projects/NetCore/RebStoreCore/App/App.csproj": {
+                "projectPath": "/home/bonifacio/Projects/NetCore/RebStoreCore/App/App.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/home/bonifacio/Projects/NetCore/RebStoreCore/WebAPI/WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -222,6 +282,9 @@
             "projectReferences": {
               "/home/bonifacio/Projects/NetCore/RebStoreCore/App/App.csproj": {
                 "projectPath": "/home/bonifacio/Projects/NetCore/RebStoreCore/App/App.csproj"
+              },
+              "/home/bonifacio/Projects/NetCore/RebStoreCore/Security/Security.csproj": {
+                "projectPath": "/home/bonifacio/Projects/NetCore/RebStoreCore/Security/Security.csproj"
               }
             }
           }

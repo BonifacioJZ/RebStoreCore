@@ -141,3 +141,9 @@
 /home/bonifacio/Projects/NetCore/RebStoreCore/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 /home/bonifacio/Projects/NetCore/RebStoreCore/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Core.dll
 /home/bonifacio/Projects/NetCore/RebStoreCore/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Stores.dll
+/home/bonifacio/Projects/NetCore/RebStoreCore/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/bonifacio/Projects/NetCore/RebStoreCore/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll
+/home/bonifacio/Projects/NetCore/RebStoreCore/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
+/home/bonifacio/Projects/NetCore/RebStoreCore/WebAPI/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
+/home/bonifacio/Projects/NetCore/RebStoreCore/WebAPI/bin/Debug/netcoreapp3.1/Security.dll
+/home/bonifacio/Projects/NetCore/RebStoreCore/WebAPI/bin/Debug/netcoreapp3.1/Security.pdb

@@ -1,6 +1,7 @@
 using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
+using App.contracts;
 using App.MidlewareError;
 using Domain.entity;
 using FluentValidation;
@@ -27,9 +28,15 @@ namespace App.Security
         {
             private readonly UserManager<User> _userManager;
             private readonly SignInManager<User> _signInManager;
-            public Handler(UserManager<User> manager, SignInManager<User> signInManager){
+            private readonly IJwtGenerate _jwtGenerate;
+            public Handler(UserManager<User> manager, SignInManager<User> signInManager, IJwtGenerate generate){
                 _userManager = manager;
+                
                 _signInManager = signInManager;
+
+                _jwtGenerate = generate;
+
+
             }
             public async Task<UserData> Handle(Ejected request, CancellationToken cancellationToken)
             {
@@ -43,7 +50,7 @@ namespace App.Security
                     {
                         name = usuario.name,
                         last_name = usuario.las_name,
-                        Token = "Token",
+                        Token = _jwtGenerate.CreateToken(usuario),
                         Email = usuario.Email,
                         Username = usuario.UserName,
                         Image = null

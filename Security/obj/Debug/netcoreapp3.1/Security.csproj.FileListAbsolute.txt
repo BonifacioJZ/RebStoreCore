@@ -1,0 +1,16 @@
+/home/bonifacio/Projects/NetCore/RebStoreCore/Security/bin/Debug/netcoreapp3.1/Security.deps.json
+/home/bonifacio/Projects/NetCore/RebStoreCore/Security/bin/Debug/netcoreapp3.1/Security.dll
+/home/bonifacio/Projects/NetCore/RebStoreCore/Security/bin/Debug/netcoreapp3.1/Security.pdb
+/home/bonifacio/Projects/NetCore/RebStoreCore/Security/bin/Debug/netcoreapp3.1/App.dll
+/home/bonifacio/Projects/NetCore/RebStoreCore/Security/bin/Debug/netcoreapp3.1/Domain.dll
+/home/bonifacio/Projects/NetCore/RebStoreCore/Security/bin/Debug/netcoreapp3.1/Persistence.dll
+/home/bonifacio/Projects/NetCore/RebStoreCore/Security/bin/Debug/netcoreapp3.1/App.pdb
+/home/bonifacio/Projects/NetCore/RebStoreCore/Security/bin/Debug/netcoreapp3.1/Domain.pdb
+/home/bonifacio/Projects/NetCore/RebStoreCore/Security/bin/Debug/netcoreapp3.1/Persistence.pdb
+/home/bonifacio/Projects/NetCore/RebStoreCore/Security/obj/Debug/netcoreapp3.1/Security.csprojAssemblyReference.cache
+/home/bonifacio/Projects/NetCore/RebStoreCore/Security/obj/Debug/netcoreapp3.1/Security.AssemblyInfoInputs.cache
+/home/bonifacio/Projects/NetCore/RebStoreCore/Security/obj/Debug/netcoreapp3.1/Security.AssemblyInfo.cs
+/home/bonifacio/Projects/NetCore/RebStoreCore/Security/obj/Debug/netcoreapp3.1/Security.csproj.CoreCompileInputs.cache
+/home/bonifacio/Projects/NetCore/RebStoreCore/Security/obj/Debug/netcoreapp3.1/Security.csproj.CopyComplete
+/home/bonifacio/Projects/NetCore/RebStoreCore/Security/obj/Debug/netcoreapp3.1/Security.dll
+/home/bonifacio/Projects/NetCore/RebStoreCore/Security/obj/Debug/netcoreapp3.1/Security.pdb
