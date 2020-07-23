@@ -147,3 +147,6 @@
 /home/bonifacio/Projects/NetCore/RebStoreCore/WebAPI/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
 /home/bonifacio/Projects/NetCore/RebStoreCore/WebAPI/bin/Debug/netcoreapp3.1/Security.dll
 /home/bonifacio/Projects/NetCore/RebStoreCore/WebAPI/bin/Debug/netcoreapp3.1/Security.pdb
+/home/bonifacio/Projects/NetCore/RebStoreCore/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/bonifacio/Projects/NetCore/RebStoreCore/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.dll
+/home/bonifacio/Projects/NetCore/RebStoreCore/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll

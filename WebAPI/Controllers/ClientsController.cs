@@ -3,13 +3,13 @@ using System.Threading.Tasks;
 using App.client;
 using Domain.entity;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebAPI.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class ClientsControlle : MyControllerBase
+   
+    public class ClientsController : MyControllerBase
     {
        
 

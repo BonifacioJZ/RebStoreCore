@@ -9,7 +9,7 @@ using Persistence;
 namespace Persistence.Migrations
 {
     [DbContext(typeof(RebStoreContext))]
-    [Migration("20200717230417_IdentityCoreInitial")]
+    [Migration("20200721215533_IdentityCoreInitial")]
     partial class IdentityCoreInitial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

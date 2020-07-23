@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IQ1gPwjD9cBNGqjm/DoxoH/GeuMY9bCmh8zCqXX2OFa41fU+IzU4iUJTYfnznUMxsqtWiHoF/cKb2MUwC4Axug==",
+  "dgSpecHash": "jOZarBhq3FZogJeLudv4Q8TUH49ciExhjVWd+kTN3wR81vqade1pISueObUrEKGDCNjzXlqAQFfilV7lJQ+ugA==",
   "success": true,
   "projectFilePath": "/home/bonifacio/Projects/NetCore/RebStoreCore/WebAPI/WebAPI.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "/home/bonifacio/.nuget/packages/k4os.hash.xxhash/1.0.6/k4os.hash.xxhash.1.0.6.nupkg.sha512",
     "/home/bonifacio/.nuget/packages/mediatr/8.0.0/mediatr.8.0.0.nupkg.sha512",
     "/home/bonifacio/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/8.0.1/mediatr.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
+    "/home/bonifacio/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/3.1.6/microsoft.aspnetcore.authentication.jwtbearer.3.1.6.nupkg.sha512",
     "/home/bonifacio/.nuget/packages/microsoft.aspnetcore.cryptography.internal/3.1.1/microsoft.aspnetcore.cryptography.internal.3.1.1.nupkg.sha512",
     "/home/bonifacio/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/3.1.1/microsoft.aspnetcore.cryptography.keyderivation.3.1.1.nupkg.sha512",
     "/home/bonifacio/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/3.1.1/microsoft.aspnetcore.identity.entityframeworkcore.3.1.1.nupkg.sha512",
@@ -41,6 +42,8 @@
     "/home/bonifacio/.nuget/packages/microsoft.extensions.primitives/3.1.1/microsoft.extensions.primitives.3.1.1.nupkg.sha512",
     "/home/bonifacio/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.7.1/microsoft.identitymodel.jsonwebtokens.6.7.1.nupkg.sha512",
     "/home/bonifacio/.nuget/packages/microsoft.identitymodel.logging/6.7.1/microsoft.identitymodel.logging.6.7.1.nupkg.sha512",
+    "/home/bonifacio/.nuget/packages/microsoft.identitymodel.protocols/5.5.0/microsoft.identitymodel.protocols.5.5.0.nupkg.sha512",
+    "/home/bonifacio/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/5.5.0/microsoft.identitymodel.protocols.openidconnect.5.5.0.nupkg.sha512",
     "/home/bonifacio/.nuget/packages/microsoft.identitymodel.tokens/6.7.1/microsoft.identitymodel.tokens.6.7.1.nupkg.sha512",
     "/home/bonifacio/.nuget/packages/microsoft.netcore.platforms/3.0.0/microsoft.netcore.platforms.3.0.0.nupkg.sha512",
     "/home/bonifacio/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",

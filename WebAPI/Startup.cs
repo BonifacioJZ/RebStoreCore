@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using App.client;
 using App.contracts;
@@ -19,9 +20,13 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 using Persistence;
 using Security.Token;
 using WebAPI.Middleware;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc.Authorization;
 
 namespace WebAPI {
     public class Startup {
@@ -38,7 +43,11 @@ namespace WebAPI {
                 optionsAction.UseMySQL (Configuration.GetConnectionString ("DefaultConnection"));
             });
             
-            services.AddControllers ().AddFluentValidation (cfg => cfg.RegisterValidatorsFromAssemblyContaining<Create> ());
+            services.AddControllers (opt=>{
+                var policy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
+                opt.Filters.Add(new AuthorizeFilter(policy));
+            })
+            .AddFluentValidation (cfg => cfg.RegisterValidatorsFromAssemblyContaining<Create> ());
             
             services.AddMediatR (typeof (Consult.handler).Assembly);
             
@@ -52,6 +61,19 @@ namespace WebAPI {
             
             services.TryAddSingleton<ISystemClock, SystemClock> ();
             
+            var key = new SymmetricSecurityKey (Encoding.UTF8.GetBytes ("mi palabra secreta"));
+
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(opt =>
+            {
+                opt.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = key,
+                    ValidateAudience = false,
+                    ValidateIssuer = false
+                };
+            });
+
             services.AddScoped<IJwtGenerate, JwtGenerate> ();
         }
 
@@ -63,7 +85,9 @@ namespace WebAPI {
                 //app.UseDeveloperExceptionPage();
             }
 
-            app.UseHttpsRedirection ();
+            app.UseAuthentication();
+
+            //app.UseHttpsRedirection ();
 
             app.UseRouting ();
 
