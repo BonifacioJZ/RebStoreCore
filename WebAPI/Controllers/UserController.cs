@@ -19,5 +19,9 @@ namespace WebAPI.Controllers
         public async Task<ActionResult<UserData>> Register(Register.Ejected data){
             return await Mediator.Send(data);
         }
+        [HttpGet]
+        public async Task<ActionResult<UserData>> GetUser(){
+            return await Mediator.Send(new UserActual.Ejected());
+        }
     }
 }

@@ -24,9 +24,19 @@ namespace App.Security
             _userSession = userSession;
 
         }
-            public Task<UserData> Handle(Ejected request, CancellationToken cancellationToken)
+            public async Task<UserData> Handle(Ejected request, CancellationToken cancellationToken)
             {
-                throw new System.NotImplementedException();
+               var user = await _userManager.FindByNameAsync(_userSession.GetUserSession());
+                return new UserData
+                {
+                    name = user.name,
+                    last_name = user.las_name,
+                    Username = user.UserName,
+                    Token = _jwtGenerate.CreateToken(user),
+                    Image = null,
+                    Email = user.Email
+            };
+
             }
         }
     }
