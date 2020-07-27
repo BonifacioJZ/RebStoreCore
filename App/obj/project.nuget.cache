@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "2F/hpY1f+Ca8TvuRiQZ7/mBpWJTywM1TEmBg93KhFO57Pa+OD8+vTlOIlLYD305lN776yRRdHNn2B9GhBQCpTg==",
+  "dgSpecHash": "di3QiyaTwkKo2sHjNftn2MeN1D66OwXSwsudiKvn5I1Dw1hg8mnOrT9J+NPt4y9YbxMnvnCNWGb35+m8eJ+seg==",
   "success": true,
   "projectFilePath": "/home/bonifacio/Projects/NetCore/RebStoreCore/App/App.csproj",
   "expectedPackageFiles": [
+    "/home/bonifacio/.nuget/packages/automapper/10.0.0/automapper.10.0.0.nupkg.sha512",
+    "/home/bonifacio/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.0.1/automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
     "/home/bonifacio/.nuget/packages/bouncycastle.netcore/1.8.3/bouncycastle.netcore.1.8.3.nupkg.sha512",
     "/home/bonifacio/.nuget/packages/fluentvalidation/8.6.2/fluentvalidation.8.6.2.nupkg.sha512",
     "/home/bonifacio/.nuget/packages/fluentvalidation.aspnetcore/8.6.2/fluentvalidation.aspnetcore.8.6.2.nupkg.sha512",
@@ -95,7 +97,7 @@
     "/home/bonifacio/.nuget/packages/system.net.sockets/4.3.0/system.net.sockets.4.3.0.nupkg.sha512",
     "/home/bonifacio/.nuget/packages/system.objectmodel/4.3.0/system.objectmodel.4.3.0.nupkg.sha512",
     "/home/bonifacio/.nuget/packages/system.reflection/4.3.0/system.reflection.4.3.0.nupkg.sha512",
-    "/home/bonifacio/.nuget/packages/system.reflection.emit/4.3.0/system.reflection.emit.4.3.0.nupkg.sha512",
+    "/home/bonifacio/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512",
     "/home/bonifacio/.nuget/packages/system.reflection.emit.ilgeneration/4.3.0/system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
     "/home/bonifacio/.nuget/packages/system.reflection.emit.lightweight/4.3.0/system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
     "/home/bonifacio/.nuget/packages/system.reflection.extensions/4.3.0/system.reflection.extensions.4.3.0.nupkg.sha512",

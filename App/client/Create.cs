@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
@@ -14,7 +15,7 @@ namespace App.client
             public string name { get; set; }
             public string last_name { get; set; }
             public string lugar { get; set; }
-
+            public List<Guid> ListNumers { get; set; }
         }
 
         public class EjectedValidation : AbstractValidator<Ejected>{
@@ -34,14 +35,30 @@ namespace App.client
             }
             public async Task<Unit> Handle(Ejected request, CancellationToken cancellationToken)
             {
+                Guid clientId = Guid.NewGuid();
                 var client = new Client
                 {
+                    ClientId = clientId,
                     name = request.name,
                     last_name = request.last_name,
                     lugar = request.lugar
                 };
                 _reb.Client.Add(client);
+                
+                if(request.ListNumers==null){
+                    
+                    foreach(var id in request.ListNumers){
+                        var clientnumber = new ClientNumber
+                        {
+                            ClientId = client.ClientId,
+                            NumberId = id
+                        };
+                        _reb.ClientNumber.Add(clientnumber);
+                    }
+                }
+
                 var valor =await _reb.SaveChangesAsync();
+                
                 if(valor >0){
                     return Unit.Value;
                 }

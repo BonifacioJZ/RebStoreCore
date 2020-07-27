@@ -7,8 +7,6 @@ namespace Domain.entity {
         public string last_name { get; set; }
         public string lugar { get; set; }
         public ICollection<Factura> facturas { get; set; }
-
-
         public ICollection<ClientNumber> clientNumbers { get; set; }
         
 

@@ -14,7 +14,7 @@ namespace WebAPI.Controllers
        
 
         [HttpGet]
-        public async Task<ActionResult<List<Client>>> Get(){
+        public async Task<ActionResult<List<ClientDto>>> Get(){
            
             return await Mediator.Send(new Consult.ConsultList());
         }
